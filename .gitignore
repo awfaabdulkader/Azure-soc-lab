@@ -1,0 +1,16 @@
+# Local credentials and deployment secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+# Dependencies and local output
+node_modules/
+vendor/
+dist/
+.git/
+.DS_Store
+Thumbs.db
